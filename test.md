@@ -34,7 +34,7 @@ To install and use SSR in your project:
    ```
 2. Import the repository library:
    ```bash
-   const SSR = require('my-serializer');
+   const SSR = require('serializer.js');
 
    const encodedData = mySerializer.encode('Hello, World!');
    const decodedData = mySerializer.decode(encodedData);
